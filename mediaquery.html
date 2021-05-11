@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Media</title>
+	<style type="text/css">
+		.a{
+			border:5px solid black;
+			font-size: 70px;
+			height: 700px;
+			width: 100%;
+			background: red;
+
+		}
+		.mobilelogo{
+			display: none;
+		}
+		@media (max-width: 600px){
+			.a{
+				font-size:40px;
+				background: green;
+				border: 2px dotted blue;
+			}
+			.weblogo{
+				display: none;
+
+			}
+			.mobilelogo{
+				display: block;
+			}
+		}
+	</style>
+
+</head>
+<body>
+	<div class="a">
+		This is the heading
+		<img src="https://www.firstfiddle.in/assets/images/ff-logo-02.png" class="weblogo">
+		<img src="https://www.firstfiddle.in/assets/images/logo-for-mobile.png" class="moblogo">
+		
+	</div>
+
+</body>
+</html>

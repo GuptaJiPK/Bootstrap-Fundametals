@@ -1,0 +1,31 @@
+.heading{
+	font-weight: bolder;
+	padding-top: 20px;
+    text-transform: uppercase;
+    font-family: prague;
+    letter-spacing: 3px;
+}
+.intro{
+	line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-align: justify;
+}
+.introimage{
+	box-shadow: 0 0px 0px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+	width: 75%;
+}
+
+.btn{
+	box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    background-color: #fbac29;
+    padding: 10px 20px;
+    margin-bottom: 40px;
+}
+.knowbkg{
+	background: url(../image/bannerabout.jpg);
+}
+.mediamntns{
+	color:#ffffff;
+	margin: 80px 0px;
+}
