@@ -1,3 +1,30 @@
+*{
+	margin:0;
+	padding: 0; 
+}
+.a{
+	background: #00000078;
+
+}
+.mobilelogo{
+	display: none;
+}
+.weblogo{
+	width: 70px;
+}
+@media (max-width: 600px){
+	.a{
+		background:#fbaa1a;
+	}
+	
+	.weblogo{
+			display: none;
+
+		}
+	.mobilelogo{
+				display: block;
+			}
+}
 .heading{
 	font-weight: bolder;
 	padding-top: 20px;
@@ -28,4 +55,13 @@
 .mediamntns{
 	color:#ffffff;
 	margin: 80px 0px;
+}
+.outletbkg{
+	background: url(../image/outletbanner.png);
+}
+.footer{
+	
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #000;
 }
