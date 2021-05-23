@@ -1,0 +1,117 @@
+*{
+	margin:0;
+	padding: 0; 
+}
+.a{
+	background: #0000009c;
+
+}
+.mobilelogo{
+	display: none;
+}
+.weblogo{
+	width: 65px;
+}
+.franchise{
+	border-style: solid;
+	border-width: thin;
+	border-color: #fbab29;
+}
+@media (max-width: 600px){
+	.a{
+		background:#fec926;
+	}
+	.active{
+		color:#000!important;
+	}
+	.weblogo{
+			display: none;
+
+		}
+	.mobilelogo{
+				display: block;
+			}
+	.franchise{
+		border: none;
+	}
+	.banner-margin{
+				margin-top: 16%;
+			}	
+	.mob-banner{
+		display: block !important;
+	}	
+	.web-banner{
+		display: none;
+	}
+	.press{
+	font-size: 50px !important;
+
+	}
+	
+	.title{
+	position: absolute;
+	top: 45%;
+	
+	letter-spacing: 4px;
+	text-align: center;
+	}
+	.scrollable{
+		height: 200px!important;
+	}
+}
+.mob-banner{
+		display: none;
+	}	
+.web-banner{
+	width: 100%;
+}
+.title{
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	letter-spacing: 4px;
+	text-align: center;
+}
+.press{
+	font-size: 80px ;
+
+}
+.primage{
+	padding: 20px;
+}
+.shadow{
+	box-shadow: 0 10px 16px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19)!important;
+}
+.scrollable{
+	height: 475px;
+	overflow-y: scroll;
+
+}
+.scrollable a{
+	text-decoration: none;
+	color:#000;
+}
+.scrollable a:hover{
+	color: #fec926;
+}
+.article{
+	text-decoration: none;
+	color:#000;
+}
+.article:hover{
+	text-decoration: underline;
+	color: #fec926;
+}
+.footer{
+	
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #000;
+}
+.footsocialicons{
+	color:#ffad00;
+	text-align: left !important;
+	font-size: 30px;
+	margin-right: 10px;
+}

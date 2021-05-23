@@ -1,0 +1,111 @@
+*{
+	margin:0;
+	padding: 0; 
+}
+.a{
+	background: #0000009c;
+
+}
+.mobilelogo{
+	display: none;
+}
+.weblogo{
+	width: 65px;
+}
+.franchise{
+	border-style: solid;
+	border-width: thin;
+	border-color: #fbab29;
+}
+@media (max-width: 600px){
+	.a{
+		background:#fec926;
+	}
+	.active{
+		color:#000!important;
+	}
+	.weblogo{
+			display: none;
+
+		}
+	.mobilelogo{
+				display: block;
+			}
+	.franchise{
+		border: none;
+	}
+	.banner-margin{
+				margin-top: 16%;
+			}	
+	.mob-banner{
+		display: block !important;
+	}	
+	.web-banner{
+		display: none;
+	}
+	
+	.contact{
+		font-size: 50px!important;
+	}
+	
+	.title{
+	position: absolute;
+	top: 45%;
+	
+	letter-spacing: 4px;
+	text-align: center;
+	}
+}
+.mob-banner{
+		display: none;
+	}	
+.web-banner{
+	width: 100%;
+}
+.title{
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	letter-spacing: 4px;
+	text-align: center;
+}
+.contact{
+	font-size: 80px ;
+
+}
+.btn{
+	box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    background-color:#ffc107;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+.form-margin{
+	padding-right: 70px;
+	padding-left: 70px;
+}
+.form-padding{
+	padding:3%;
+}
+.head{
+	font-size: 15px;
+	line-height: 20px;
+	text-decoration: none;
+	color:#fcb212;
+}
+.head:hover{
+	text-decoration: underline;
+	color:#fcb212;
+}
+.footer{
+	
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #000;
+}
+.footsocialicons{
+	color:#ffad00;
+	text-align: left !important;
+	font-size: 30px;
+	margin-right: 10px;
+}

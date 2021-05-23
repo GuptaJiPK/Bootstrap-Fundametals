@@ -34,7 +34,51 @@
 	.franchise{
 		border: none;
 	}
-	
+	.banner-margin{
+				margin-top: 16%;
+			}	
+	.mob-banner{
+		display: block !important;
+	}	
+	.web-banner{
+		display: none;
+	}
+	.ourstory{
+	font-size: 50px !important;
+
+	}
+	.ourstory2{
+	font-size: 25px !important;
+	}
+	.title{
+	position: absolute;
+	top: 45%;
+	/*left: 0!important;*/
+	letter-spacing: 4px;
+	text-align: center;
+	}
+}
+
+.mob-banner{
+		display: none;
+	}	
+.web-banner{
+	width: 100%;
+}
+.title{
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	letter-spacing: 4px;
+	text-align: center;
+}
+.ourstory{
+	font-size: 80px ;
+
+}
+.ourstory2{
+	font-size: 40px ;
 }
 .heading{
 	font-weight: bolder;
@@ -51,24 +95,36 @@
 }
 .introimage{
 	box-shadow: 0 0px 0px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
-	width: 75%;
+	width: 100%;
 }
 
+.gamechange{
+	color:#ffffff;
+	margin: 80px 0px;
+}
+.gamebkg{
+	background: url(../image/gamebanner.jpg);
+}
+.priyankimage{
+	box-shadow: 0 10px 16px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19)!important;
+	width: 80%;
+}
+.family{
+	line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-align: justify;
+}
+.familyimg{
+	box-shadow: 0 0px 0px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+	width: 100%;
+
+}
 .btn{
 	box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
     background-color: #fbac29;
     padding: 10px 20px;
     margin-bottom: 40px;
-}
-.knowbkg{
-	background: url(../image/bannerabout.jpg);
-}
-.mediamntns{
-	color:#ffffff;
-	margin: 80px 0px;
-}
-.outletbkg{
-	background: url(../image/outletbanner.png);
 }
 .footer{
 	

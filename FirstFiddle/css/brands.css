@@ -1,0 +1,93 @@
+*{
+	margin:0;
+	padding: 0; 
+}
+.a{
+	background: #0000009c;
+
+}
+.mobilelogo{
+	display: none;
+}
+.weblogo{
+	width: 65px;
+}
+.franchise{
+	border-style: solid;
+	border-width: thin;
+	border-color: #fbab29;
+}
+@media (max-width: 600px){
+	.a{
+		background:#fec926;
+	}
+	.active{
+		color:#000!important;
+	}
+	.weblogo{
+			display: none;
+
+		}
+	.mobilelogo{
+				display: block;
+			}
+	.franchise{
+		border: none;
+	}
+	.banner-margin{
+				margin-top: 16%;
+			}	
+	.mob-banner{
+		display: block !important;
+	}	
+	.web-banner{
+		display: none;
+	}
+	.brand{
+	font-size: 50px !important;
+
+	}
+	
+	.title{
+	position: absolute;
+	top: 45%;
+	
+	letter-spacing: 4px;
+	text-align: center;
+	}
+}
+
+.mob-banner{
+		display: none;
+	}	
+.web-banner{
+	width: 100%;
+}
+.title{
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	letter-spacing: 4px;
+	text-align: center;
+}
+.brand{
+	font-size: 80px ;
+
+}
+.logomargin{
+	/*margin-top: 10px;*/
+	padding: 5%;
+}
+.footer{
+	
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #000;
+}
+.socialicons{
+	color:#ffad00;
+	text-align: left !important;
+	font-size: 30px;
+	margin-right: 10px;
+}

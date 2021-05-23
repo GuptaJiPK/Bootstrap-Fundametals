@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Slider</title>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- CSS only -->
+	<link rel="icon"  href="https://www.firstfiddle.in/assets/images/ff-logo-02.png">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	
+	<link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- JavaScript Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
+	</script>
+	<style >
+		.carousel-caption {
+			position: absolute;
+			top: 100px;
+
+		}
+	</style>
+</head>
+<body>
+
+<div class="carousel slide" data-bs-ride="carousel" id="a">
+	<div class="carousel-indicators">
+		<button type="button" data-bs-target="#a" data-bs-slide-to="0" class="active"></button>
+		<button type="button" data-bs-target="#a" data-bs-slide-to="1" ></button>
+		<button type="button" data-bs-target="#a" data-bs-slide-to="2" ></button>
+	</div>
+    <div class="carousel-inner">
+        <div class="carousel-item active " data-bs-interval="4000">
+            <img src="https://app.firstfiddle.in/images/brand-banner/lotd.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption ">
+                <h5>LORD OF THE DRINKS</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+                <button class="btn btn-info">submit</button>
+        </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="3000">
+        <img src="https://app.firstfiddle.in/images/brand-banner/plum.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption ">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+           </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="3000">
+        <img src="https://app.firstfiddle.in/images/brand-banner/dragonflybanner.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption ">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#a" data-bs-slide="prev">
+    	<span class="carousel-control-prev-icon"></span>
+    	<span class="visually-hidden">previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#a" data-bs-slide="next">
+    	<span class="carousel-control-next-icon"></span>
+    	<span class="visually-hidden">next</span>
+    </button>
+</div>  
+<!---- slider end----->
+
+</body>
+</html>

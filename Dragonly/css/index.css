@@ -1,0 +1,64 @@
+*{
+	margin:0;
+	padding: 0; 
+}
+.a{
+	background: #0000009c;
+
+}
+.margin-nav{
+	margin-right: 20px;
+}
+.mobilelogo{
+	display: none;
+}
+.weblogo{
+	width: 65px;
+}
+.franchise{
+	border-style: solid;
+	border-width: thin;
+	border-color: #fbab29;
+}
+@media (max-width: 600px){
+	.a{
+		background:#000;
+	}
+	.active{
+		color:#000!important;
+	}
+	.weblogo{
+			display: none;
+
+		}
+	.mobilelogo{
+				display: block;
+				width: 50px;
+			}
+	.franchise{
+		border: none;
+	}
+	.banner-margin{
+				margin-top: 21%;
+			}	
+	.reservation{
+		width: 100%!important;
+		position: absolute;
+		top: 0px!important;
+		padding:6%;
+	}
+	.chef{
+		width: 100%!important;
+		margin-left: 0px!important;
+		padding: 6%!important; 
+
+	}
+}
+.reservation{
+	position: relative;
+	top: -130px;
+}
+.chef{
+	padding: 5px;
+	margin-left: 87px;
+}

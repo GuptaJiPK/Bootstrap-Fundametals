@@ -34,41 +34,51 @@
 	.franchise{
 		border: none;
 	}
+	.banner-margin{
+				margin-top: 16%;
+			}	
+	.mob-banner{
+		display: block !important;
+	}	
+	.web-banner{
+		display: none;
+	}
 	
+	.career{
+		font-size: 50px!important;
+	}
+	
+	.title{
+	position: absolute;
+	top: 45%;
+	
+	letter-spacing: 4px;
+	text-align: center;
+	}
 }
-.heading{
-	font-weight: bolder;
-	padding-top: 20px;
-    text-transform: uppercase;
-    font-family: prague;
-    letter-spacing: 3px;
+.mob-banner{
+		display: none;
+	}	
+.web-banner{
+	width: 100%;
 }
-.intro{
-	line-height: 35px;
-    letter-spacing: 1px;
-    word-spacing: 1px;
-    text-align: justify;
+.title{
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	letter-spacing: 4px;
+	text-align: center;
 }
-.introimage{
-	box-shadow: 0 0px 0px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
-	width: 75%;
-}
+.career{
+	font-size: 80px ;
 
+}
 .btn{
 	box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
-    background-color: #fbac29;
+    background-color:#ffc107;
     padding: 10px 20px;
-    margin-bottom: 40px;
-}
-.knowbkg{
-	background: url(../image/bannerabout.jpg);
-}
-.mediamntns{
-	color:#ffffff;
-	margin: 80px 0px;
-}
-.outletbkg{
-	background: url(../image/outletbanner.png);
+    margin-bottom: 20px;
 }
 .footer{
 	
@@ -76,10 +86,9 @@
 	padding-bottom: 20px;
 	background: #000;
 }
-.socialicons{
+.footsocialicons{
 	color:#ffad00;
 	text-align: left !important;
 	font-size: 30px;
 	margin-right: 10px;
 }
-
